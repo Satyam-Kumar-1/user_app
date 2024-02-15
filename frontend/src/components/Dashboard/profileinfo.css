@@ -1,0 +1,16 @@
+.profile-info {
+    padding-left: 250px; /* Default padding for larger screens */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .profile-info {
+      padding-left: 150px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .profile-info {
+      padding-left: 20px; /* Adjust padding for even smaller screens */
+    }
+  }
+  
